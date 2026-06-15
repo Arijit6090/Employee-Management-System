@@ -327,7 +327,7 @@ Possible future improvements:
 
 # Developed By
 
-**Chinmaya Meher**
+**Arijit Kundu**
 
 Bachelor of Computer Applications (BCA)
 
