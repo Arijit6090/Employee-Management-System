@@ -20,6 +20,106 @@ Administrators can manage employee records, maintain organizational data, and ge
 The application demonstrates concepts such as authentication, session management, database connectivity, CRUD operations, role-based access control, and MVC architecture.
 
 ---
+# Folder Structure
+```
+└── 📁EmployeeeManagementSystem-Java
+    └── 📁.mvn
+        ├── jvm.config
+        ├── maven.config
+    └── 📁database
+        ├── ems_db.sql
+    └── 📁screenshots
+        ├── addemployee.PNG
+        ├── dashboard.PNG
+        ├── employeedashboard.PNG
+        ├── employeelist.PNG
+        ├── homepagee.PNG
+        ├── loginpage.PNG
+        ├── payslip.PNG
+    └── 📁src
+        └── 📁main
+            └── 📁java
+                └── 📁com
+                    └── 📁ems
+                        └── 📁dao
+                            ├── DBConnection.java
+                            ├── EmployeeDAO.java
+                            ├── PayslipDAO.java
+                            ├── UserDAO.java
+                        └── 📁model
+                            ├── Employee.java
+                            ├── Payslip.java
+                            ├── User.java
+                        └── 📁servlet
+                            ├── AddEmployeeServlet.java
+                            ├── DeleteEmployeeServlet.java
+                            ├── DownloadPayslipServlet.java
+                            ├── EmployeeListServlet.java
+                            ├── EmployeeProfileServlet.java
+                            ├── GeneratePayslipServlet.java
+                            ├── LoginServlet.java
+                            ├── LogoutServlet.java
+                            ├── SendEmailServlet.java
+                            ├── UpdateEmployeeServlet.java
+                            ├── UploadPhotoServlet.java
+                            ├── ViewEmployeeServlet.java
+                            ├── ViewPayslipServlet.java
+                        └── 📁util
+                            ├── EmailUtil.java
+            └── 📁webapp
+                └── 📁admin
+                    ├── addEmployee.jsp
+                    ├── adminDashboard.jsp
+                    ├── editEmployee.jsp
+                    ├── employeeDetails.jsp
+                    ├── employeeList.jsp
+                    ├── generatePayslip.jsp
+                └── 📁css
+                    ├── admin.css
+                └── 📁employee
+                    ├── employeeDashboard.jsp
+                    ├── profile.jsp
+                    ├── viewPayslip.jsp
+                └── 📁error
+                    ├── accessDenied.jsp
+                └── 📁WEB-INF
+                    ├── web.xml
+                ├── login.jsp
+    └── 📁target
+        └── 📁classes
+            └── 📁com
+                └── 📁ems
+                    └── 📁dao
+                        ├── DBConnection.class
+                        ├── EmployeeDAO.class
+                        ├── PayslipDAO.class
+                        ├── UserDAO.class
+                    └── 📁model
+                        ├── Employee.class
+                        ├── Payslip.class
+                        ├── User.class
+                    └── 📁servlet
+                        ├── AddEmployeeServlet.class
+                        ├── DeleteEmployeeServlet.class
+                        ├── DownloadPayslipServlet.class
+                        ├── EmployeeListServlet.class
+                        ├── EmployeeProfileServlet.class
+                        ├── GeneratePayslipServlet.class
+                        ├── LoginServlet.class
+                        ├── LogoutServlet.class
+                        ├── SendEmailServlet.class
+                        ├── UpdateEmployeeServlet.class
+                        ├── UploadPhotoServlet.class
+                        ├── ViewEmployeeServlet.class
+                        ├── ViewPayslipServlet.class
+                    └── 📁util
+                        ├── EmailUtil.class
+                        ├── EmailUtil$1.class
+        └── 📁test-classes
+    ├── .gitignore
+    ├── pom.xml
+    └── README.md
+```
 
 # Features
 

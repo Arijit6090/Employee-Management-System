@@ -21,7 +21,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Edit Employee — EMS</title>
+    <title>Edit Employee — WorkHub</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" rel="stylesheet">
     <link rel="stylesheet" href="<%= request.getContextPath() %>/css/admin.css">
     <style>
@@ -36,7 +36,7 @@
     <div class="sidebar-brand">
         <div class="brand-icon"><i class="bi bi-people-fill" style="color:#fff;"></i></div>
         <div>
-            <div class="brand-text">EMS Portal</div>
+            <div class="brand-text">WorkHub</div>
             <span class="brand-sub">Admin Panel</span>
         </div>
     </div>

@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Login — EMS</title>
+    <title>Login — WorkHub</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" rel="stylesheet">
     <style>
         *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
@@ -194,7 +194,7 @@
     <div class="brand-logo-wrap">
         <i class="bi bi-people-fill"></i>
     </div>
-    <h2>EMS Portal</h2>
+    <h2>WorkHub</h2>
     <p>Employee Management System<br>The Heritage Academy</p>
     <ul class="feature-list">
         <li><i class="bi bi-shield-check"></i> Secure role-based access</li>
